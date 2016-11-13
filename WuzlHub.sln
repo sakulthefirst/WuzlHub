@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WuzlHubConsole", "WuzlHubConsole\WuzlHubConsole.csproj", "{21C88A43-0D7B-4105-838E-98C942C5E8C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WuzlHub.DataAccessLayer", "WuzlHub.DataAccessLayer\WuzlHub.DataAccessLayer.csproj", "{B64A1B43-26C0-4CD8-A6E6-8E2D1FD42DBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WuzlHub.DataAccessLayer.MySQL", "WuzlHub.DataAccessLayer.MySQL\WuzlHub.DataAccessLayer.MySQL.csproj", "{DBF49D4A-2F96-4234-969F-721B1C484A54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WuzlHub.DomainModels", "WuzlHub.DomainModel\WuzlHub.DomainModels.csproj", "{A6D70C15-35B3-4DD6-897E-BF2E6597802E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WuzlHub.UnitTests", "WuzlHub.UnitTests\WuzlHub.UnitTests.csproj", "{E5793E60-00CF-47FD-B46D-C95DF8204872}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21C88A43-0D7B-4105-838E-98C942C5E8C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C88A43-0D7B-4105-838E-98C942C5E8C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C88A43-0D7B-4105-838E-98C942C5E8C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C88A43-0D7B-4105-838E-98C942C5E8C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B64A1B43-26C0-4CD8-A6E6-8E2D1FD42DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64A1B43-26C0-4CD8-A6E6-8E2D1FD42DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64A1B43-26C0-4CD8-A6E6-8E2D1FD42DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64A1B43-26C0-4CD8-A6E6-8E2D1FD42DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF49D4A-2F96-4234-969F-721B1C484A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF49D4A-2F96-4234-969F-721B1C484A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF49D4A-2F96-4234-969F-721B1C484A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF49D4A-2F96-4234-969F-721B1C484A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D70C15-35B3-4DD6-897E-BF2E6597802E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D70C15-35B3-4DD6-897E-BF2E6597802E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D70C15-35B3-4DD6-897E-BF2E6597802E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D70C15-35B3-4DD6-897E-BF2E6597802E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5793E60-00CF-47FD-B46D-C95DF8204872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5793E60-00CF-47FD-B46D-C95DF8204872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5793E60-00CF-47FD-B46D-C95DF8204872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5793E60-00CF-47FD-B46D-C95DF8204872}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
