@@ -23,7 +23,7 @@ namespace WuzlHub.DataAccessLayer
 
         public IDatabase GetDatabase()
         {
-            Activator.CreateInstance
+            return null;
         }
 
         public static string GetInfo()
